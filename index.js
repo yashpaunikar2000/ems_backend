@@ -16,13 +16,13 @@ import connectToDatabase from './db/db.js'
 connectToDatabase()
 const app = express()
 
-// app.use(cors({
-//     origin: "https://ems-frontend-vert.vercel.app",
-//     credentials: true,
-//     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-//     allowedHeaders: ['Content-Type', 'Authorization'],
-// }));
-app.use(cors());
+app.use(cors({
+    origin: "https://ems-frontend-ten-gray.vercel.app",
+    credentials: true,
+    // methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    // allowedHeaders: ['Content-Type', 'Authorization'],
+}));
+// app.use(cors());
 
 app.use(express.json()) 
 
