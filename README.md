@@ -1,5 +1,7 @@
 🚀 Employee Management System (MERN Stack)
+
 🧰 Tech Stack Used
+
 Frontend:
 
 React.js
@@ -27,7 +29,9 @@ Deployment:
 (Optional: Vercel, Render, or any platform you're using)
 
 ✨ Features
+
 👤 Employee Features
+
 Login / Logout with secure JWT-based authentication
 
 View personal employee dashboard
@@ -43,6 +47,7 @@ View salary details
 Change password in settings
 
 🛠️ Admin Features
+
 Login / Logout
 
 Access admin dashboard
